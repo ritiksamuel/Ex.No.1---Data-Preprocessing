@@ -90,8 +90,22 @@ Developed By : P. Ritik Samuel
 Reg NO : 212221040138
 ```
 ## OUTPUT:
-Head:
+
 ![image](https://github.com/ritiksamuel/Ex.No.1---Data-Preprocessing/assets/130056055/29abab6b-18ac-41aa-bee8-4942d52365aa)
+
+![image](https://github.com/ritiksamuel/Ex.No.1---Data-Preprocessing/assets/130056055/a795dfa6-b914-40a1-a083-e39a4b729a9c)
+
+![image](https://github.com/ritiksamuel/Ex.No.1---Data-Preprocessing/assets/130056055/add13cae-2825-46fa-83da-7607e4fa0968)
+
+![image](https://github.com/ritiksamuel/Ex.No.1---Data-Preprocessing/assets/130056055/1aa56802-8fb7-4b01-942e-b2e3e310cd1c)
+
+![image](https://github.com/ritiksamuel/Ex.No.1---Data-Preprocessing/assets/130056055/addcdfa7-634b-4051-b775-5f72b3df1e5d)
+
+![image](https://github.com/ritiksamuel/Ex.No.1---Data-Preprocessing/assets/130056055/bc81488e-6160-4d65-ac87-4aaf26c067a8)
+
+![image](https://github.com/ritiksamuel/Ex.No.1---Data-Preprocessing/assets/130056055/f7f98304-d977-4582-a8fe-43a1da666883)
+
+![image](https://github.com/ritiksamuel/Ex.No.1---Data-Preprocessing/assets/130056055/f114db5a-4a0c-4073-90b5-5bd18f7ae4da)
 
 
 ## RESULT
