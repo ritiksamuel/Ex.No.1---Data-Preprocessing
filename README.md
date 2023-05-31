@@ -32,10 +32,67 @@ Normalizing the data
 Splitting the data into test and train
 
 ## PROGRAM:
-/Write your code here/
+```
+import pandas as pd
 
+df = pd.read_csv("Churn_Modelling.csv")
+
+df.head()
+df.info()
+
+x = df.iloc[:,:-1].values
+y= df.iloc[:,1].values
+x
+y
+
+df.describe()
+
+
+from sklearn.preprocessing import LabelEncoder
+le = LabelEncoder()
+
+df1 = df.copy()
+
+df1["Geography"] = le.fit_transform(df1["Geography"])
+df1["Gender"] = le.fit_transform(df1["Gender"])
+
+
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
+
+scaler = MinMaxScaler()
+
+df1[["CreditScore","Geography","Age","Tenure","Balance","NumOfProducts","EstimatedSalary"]] = pd.DataFrame(scaler.fit_transform(df1[["CreditScore","Geography","Age","Tenure","Balance","NumOfProducts","EstimatedSalary"]]))
+
+
+
+df1.describe()
+
+
+X = df1[["CreditScore","Geography","Gender","Age","Tenure","Balance","NumOfProducts","HasCrCard","IsActiveMember","EstimatedSalary"]].values
+print(X)
+
+y = df1.iloc[:,-1].values
+print(y)
+
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+print(X_train)
+
+print("Size of X_train: ",len(X_train))
+
+print(X_test)
+print("Size of X_test: ",len(X_test))
+```
+```
+Developed By : P. Ritik Samuel
+Reg NO : 212221040138
+```
 ## OUTPUT:
-/ Show the result/
+Head:
+![image](https://github.com/ritiksamuel/Ex.No.1---Data-Preprocessing/assets/130056055/29abab6b-18ac-41aa-bee8-4942d52365aa)
+
 
 ## RESULT
-/Type your result here/
+Data preprocessing is performed in the given dataset.
